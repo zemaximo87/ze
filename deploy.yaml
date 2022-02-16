@@ -11,9 +11,9 @@ name: deployon:
           node-version: '12'
       - name: setup git auth
         env:
-          email: '<seu-email>'
-          username: '<seu-usuario>'
-          access_token: '<seu-access-token>'
+          email: '<torkpuppet@gmail.com>'
+          username: '<zemaximo87>'
+          access_token: '<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>'
         run: |
           git config --global credential.helper store
           echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
