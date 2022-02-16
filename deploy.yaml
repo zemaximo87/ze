@@ -16,7 +16,7 @@ name: deployon:
           access_token: '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'
         run: |
           git config --global credential.helper store
-          echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
+          echo "https://${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}:x-oauth-basic@github.com" > ~/.git-credentials
           git config --global user.email $email
           git config --global user.name $username
       - name: deploy to production
@@ -27,4 +27,4 @@ name: deployon:
           git init
           git add -A
           git commit -m "🚀 Deploy id ${GITHUB_RUN_ID}"
-          git push -f "https://github.com/${GITHUB_REPOSITORY}.git" master:production
+          git push -f "https://github.com/${zemaximo87/ze}.git" master:production
