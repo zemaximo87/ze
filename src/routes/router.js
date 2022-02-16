@@ -12,7 +12,7 @@ const routes = [
         component:Home
     },
     {
-        path:'/ze/sobre',
+        path:'/sobre',
         component:About
     }
 ]
