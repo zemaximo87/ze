@@ -8,11 +8,11 @@ import About from '@/pages/About';
 
 const routes = [
     {
-        path:'/',
+        path:'/ze',
         component:Home
     },
     {
-        path:'/sobre',
+        path:'/ze/sobre',
         component:About
     }
 ]
