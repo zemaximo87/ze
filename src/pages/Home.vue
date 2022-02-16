@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="text-top">
-            Aqui é nois no Vue
+            Aqui é nois no Vue...................
 
            
                 <p v-for="user in users" :key="user.index"> {{user.name}} </p>
