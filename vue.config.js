@@ -1,3 +1,3 @@
 module.exports = {
-    baseUrl: process.env.NODE_ENV === "production" ? "/ze/" : "/",
+    publicPath: process.env.NODE_ENV === "production" ? "/ze/" : "/",
   };
