@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const local = axios.create({
-    baseURL:'/data'
+    baseURL:'/ze/data'
 });
 
 export default local;

@@ -8,7 +8,7 @@ import About from '@/pages/About';
 
 const routes = [
     {
-        path:'/ze',
+        path:'/',
         component:Home
     },
     {
@@ -18,8 +18,10 @@ const routes = [
 ]
 
 const router = new VueRouter({
-    routes,
-    mode:'history'
+    mode:'history',
+    base:'/ze',
+    routes
+    
 });
 
 export default router;

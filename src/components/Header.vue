@@ -13,9 +13,9 @@
 
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="/videos">Vídeos</a></li>
-                    <li><a href="/sobre">Sobre</a></li>
-                    <li><a href="/contato">Contato</a></li>
+                    <li><a href="/ze/videos">Vídeos</a></li>
+                    <li><a href="/ze/sobre">Sobre</a></li>
+                    <li><a href="/ze/contato">Contato</a></li>
                 </ul>
             </div>
 
