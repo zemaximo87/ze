@@ -1,0 +1,17 @@
+[
+    {
+      "name":"Frodo",
+      "icon":"https://cdnjs.cloudflare.com/ajax/libs/ant-design-icons-svg/4.0.0/filled/linkedin.svg",
+      "link":"#"
+    },
+    {
+      "name":"Facebook",
+      "icon":"https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/icons/facebook.svg",
+      "link":"#"
+    },
+    {
+      "name":"Twitter",
+      "icon":"https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/icons/twitter.svg",
+      "link":"#"
+    }
+  ]
